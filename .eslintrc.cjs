@@ -9,11 +9,11 @@ module.exports = {
 	],
 	ignorePatterns: ['dist', '.eslintrc.cjs'],
 	parser: '@typescript-eslint/parser',
-	parserOptions: {
-		ecmaVersion: latest,
-		sourceType: 'module',
-		project: './tsconfig.app.json',
-	},
+	// parserOptions: {
+	// 	ecmaVersion: latest,
+	// 	sourceType: 'module',
+	// 	project: './tsconfig.app.json',
+	// },
 	plugins: ['react-refresh'],
 	rules: {
 		'react-refresh/only-export-components': [
